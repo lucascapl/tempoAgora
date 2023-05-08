@@ -30,13 +30,14 @@ body{
 
 .buttonDark {
     background-color: transparent;
-    font-size: 25px;
+    font-size: 30px;
     position: absolute;
     top:20px;
     right: 100px;
+    color:rgb(51, 51, 51);
 }
 .buttonDark:hover{
-    font-size: 29px;
+    font-size: 40px;
     background-color: inherit;
 }
 .container{
