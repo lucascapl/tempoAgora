@@ -20,6 +20,9 @@ body{
 .darkMode .search-box button {
     background: gray;
 }
+.darkMode .buttonDark {
+    color: rgb(47, 124, 172);
+}
 
 #iconeDarkMode {
     transition: transform 0.5s ease-in-out;
@@ -75,7 +78,7 @@ body{
     width: 50px;
     height: 50px;
     color: #06283D;
-    background: #dff6ff;
+    background:  rgb(47, 124, 172);
     border-radius: 50%;
     font-size: 22px;
     transition: 0.4s ease;
