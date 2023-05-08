@@ -3,13 +3,7 @@ const search = document.querySelector('.search-box button');
 const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
-const buttonDark = document.querySelector('.barraTopo button');
 
-buttonDark.addEventListener('click', ()=> {
-    console.log('clicou no botao');
-    const iconeDmode = document.getElementById('iconeDarkMode');
-    iconeDmode.classList.toggle('fas fa-sun');
-})
 
 search.addEventListener('click', () => {
     console.log("aAAA");

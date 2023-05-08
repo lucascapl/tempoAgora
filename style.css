@@ -14,6 +14,17 @@ body{
     background: rgb(47, 124, 172);
 }
 
+.darkMode {
+    background-color: rgb(51, 51, 51);
+}
+.darkMode .search-box button {
+    background: gray;
+}
+
+#iconeDarkMode {
+    transition: transform 0.5s ease-in-out;
+  }
+
 .buttonDark {
     background-color: transparent;
     font-size: 25px;

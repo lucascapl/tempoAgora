@@ -7,6 +7,8 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
             rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <title>Teste</title>
     </head>
 
@@ -56,4 +58,19 @@
         <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
         <script src="index.js"></script>
     </body>
+    <script>
+        $(document).ready(function() {
+          $('.buttonDark').click(function() {
+            $('body').toggleClass('darkMode');
+            if ($('#iconeDarkMode').hasClass('fa-moon')) {
+              $('#iconeDarkMode').removeClass('fa-moon').addClass('fa-sun');
+              $('#iconeDarkMode').css('transform', 'rotate(180deg)');
+            } else {
+              $('#iconeDarkMode').removeClass('fa-sun').addClass('fa-moon');
+              $('#iconeDarkMode').css('transform', 'rotate(0deg)');
+            }
+          });
+        });
+      </script>
+      
 </html>
